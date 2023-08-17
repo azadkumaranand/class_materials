@@ -1,6 +1,6 @@
 //Array Methods
 
-const students = ["Mayank", "Amit", "Suraj", "satyam", "Devansh"];
+const students = ["Mayank", "Amit", "Suraj", "satyam", 54868545, true];
 
 //length method--> for finding the length of array
 console.log(students.length);
@@ -13,7 +13,7 @@ console.log(typeof(arrToString));
 
 //join method use for converting array to string with desired seperator
 
-console.log(students.join("1"))
+console.log(students.join("->"))
 console.log(students.join(" <=> "))
 
 // pop method use for removing last element of the array
