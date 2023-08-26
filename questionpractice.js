@@ -84,3 +84,28 @@ for(let i = 0; i< array1.length; i++){
     }
 }
 console.log(maxNum)
+
+//Q7.
+
+// find prime numbers between 10 to 50
+console.log('Today class')
+for(let i=10; i<=100; i++){
+  let check = 0;
+  for(let j=2; j<i; j++){
+    if(i%j==0){
+      check = 1;
+      break;
+    }
+  }
+  
+  if(check == 0){
+    console.log(i)
+  }
+}
+
+//find factorial of a number
+let multiply = 1;
+for(let i=1; i<=6; i++){
+  multiply = multiply * i;
+}
+console.log(multiply)

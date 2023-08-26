@@ -1,0 +1,14 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+#menuList{
+    display: block;
+    transition: ease-in-out;
+    position: absolute;
+    left: 0;
+    background-color: aquamarine;
+    /* width: 30%; */
+    /* text-align: right; */
+}
