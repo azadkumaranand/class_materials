@@ -67,7 +67,7 @@ menuBar.addEventListener("click", function(){
     if(menuList.style.left == "0"){
         menuList.style.left = "500px";
     }else{
-        menuList.style.display = "0";
+        menuList.style.left = "0";
     }
 
 })
