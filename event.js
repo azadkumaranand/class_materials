@@ -98,7 +98,7 @@ const dummytext = document.getElementById('dummytext');
 
 
 // console.log(text)
-let gender = "male";
+let gender = "female";
 
 name.addEventListener('change', function(){
     if (gender === "male") {
